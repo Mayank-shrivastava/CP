@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b77e1ab-b236-4f5f-99c0-c64d9ff004db" name="Changes" comment="initial commit1">
-      <change afterPath="$PROJECT_DIR$/src/Practice_Qps/ArrayPartition1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_Qps/FindMinimuminRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_Qps/SearchInARotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_Qps/SearchInARotatedSortedArray2.java" afterDir="false" />
+    <list default="true" id="6b77e1ab-b236-4f5f-99c0-c64d9ff004db" name="Changes" comment="all">
+      <change afterPath="$PROJECT_DIR$/src/Practice_Qps/PairOfTopics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice_Qps/PartitionArrayIntoDisjointIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/CountInversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/KadanesAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/MajorityElement1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/MajorityElement2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/MergeInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/MergeTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/RepeatAndMissing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/ReversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/SearchIn2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/SetMatrixZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/pow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,16 +62,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SearchInARotatedSortedArray2">
-    <configuration name="ArrayPartition1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Qps.ArrayPartition1" />
+  <component name="RunManager" selected="Application.ReversePairs">
+    <configuration name="MajorityElement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.MajorityElement1" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice_Qps.*" />
+          <option name="PATTERN" value="striver_sheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimuminRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Qps.FindMinimuminRotatedSortedArray" />
+    <configuration name="MajorityElement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.MajorityElement2" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice_Qps.*" />
+          <option name="PATTERN" value="striver_sheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Qps.HelloWorld" />
+    <configuration name="ReversePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.ReversePairs" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice_Qps.*" />
+          <option name="PATTERN" value="striver_sheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInARotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Qps.SearchInARotatedSortedArray" />
+    <configuration name="SearchIn2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.SearchIn2DMatrix" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice_Qps.*" />
+          <option name="PATTERN" value="striver_sheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInARotatedSortedArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Qps.SearchInARotatedSortedArray2" />
+    <configuration name="pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.pow" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice_Qps.*" />
+          <option name="PATTERN" value="striver_sheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchInARotatedSortedArray2" />
-        <item itemvalue="Application.SearchInARotatedSortedArray" />
-        <item itemvalue="Application.FindMinimuminRotatedSortedArray" />
-        <item itemvalue="Application.ArrayPartition1" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.ReversePairs" />
+        <item itemvalue="Application.MajorityElement2" />
+        <item itemvalue="Application.MajorityElement1" />
+        <item itemvalue="Application.pow" />
+        <item itemvalue="Application.SearchIn2DMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653140992326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="22-05-22">
+      <created>1653220748467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653220748467</updated>
+    </task>
+    <task id="LOCAL-00005" summary="22-05-22">
+      <created>1653220767804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653220767804</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit1" />
+    <MESSAGE value="22-05-22" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
 </project>
