@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b77e1ab-b236-4f5f-99c0-c64d9ff004db" name="Changes" comment="all">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/ClassAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/NthTriangleRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PalindromePartitioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6b77e1ab-b236-4f5f-99c0-c64d9ff004db" name="Changes" comment="recursion-1">
+      <change afterPath="$PROJECT_DIR$/src/DP/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/FibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/FrogJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/FrogJump2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/HouseRobber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/NinjaTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/UniquePaths2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/LetterCombinationOfPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintPermutationOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Subset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Subset2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mayank-shrivastava &lt;mayank.shrivastava_cs19@gla.ac.in&gt;" />
+      </list>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -55,13 +68,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Combinations">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.CombinationSum" />
+  <component name="RunManager" selected="Application.UniquePaths2">
+    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.HouseRobber" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.CombinationSum2" />
+    <configuration name="HouseRobber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.HouseRobber2" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.CombinationSum3" />
+    <configuration name="NinjaTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.NinjaTraining" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Combinations" />
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.UniquePaths" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PalindromePartitioning" />
+    <configuration name="UniquePaths2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.UniquePaths2" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Combinations" />
-        <item itemvalue="Application.CombinationSum3" />
-        <item itemvalue="Application.CombinationSum2" />
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.PalindromePartitioning" />
+        <item itemvalue="Application.UniquePaths2" />
+        <item itemvalue="Application.UniquePaths" />
+        <item itemvalue="Application.NinjaTraining" />
+        <item itemvalue="Application.HouseRobber2" />
+        <item itemvalue="Application.HouseRobber" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653220767804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="recursion-1">
+      <created>1655282124594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655282124594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="recursion-1">
+      <created>1655282312227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655282312227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +221,7 @@
     <MESSAGE value="initial commit1" />
     <MESSAGE value="22-05-22" />
     <MESSAGE value="all" />
-    <option name="LAST_COMMIT_MESSAGE" value="all" />
+    <MESSAGE value="recursion-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion-1" />
   </component>
 </project>
