@@ -1,28 +1,26 @@
 package DP;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Triangle {
     public static void main(String[] args) {
         List<List<Integer>> triangle = new ArrayList<>();
+
     }
 
     public static int minimumTotal(List<List<Integer>> triangle) {
-        return solve(triangle, 0, 0);
+        int[][] dp = new int[triangle.size()][triangle.get(triangle.size()-1).size()];
+        for(int[] d : dp) Arrays.fill(d, -1);
+        return solve(triangle, 0, 0,dp);
     }
 
-    public static int solve(List<List<Integer>> triangle, int cr, int cc) {
-        if(cr == triangle.size()-1 && cc == triangle.get(0).size()-1) {
-            return triangle.get(cr).get(cc);
-        }
-
-        if(cr > triangle.size()-1 || cc > triangle.get(0).size()-1) {
-            return Integer.MIN_VALUE;
-        }
-
-        int oneMove = solve(triangle, cr+1, cc);
-        int secondMove = solve(triangle, cr+1, cc+1);
-        return Math.min(oneMove, secondMove);
+    public static int solve(List<List<Integer>> triangle, int cr, int cc, int[][] dp) {
+        if(cr == triangle.size() - 1) return triangle.get(cr).get(cc);
+        if(dp[cr][cc] != -1) return dp[cr][cc];
+        int fm = triangle.get(cr).get(cc) + solve(triangle, cr+1, cc, dp);
+        int sm = triangle.get(cr).get(cc) + solve(triangle, cr+1, cc+1,dp);
+        return dp[cr][cc] = Math.min(fm, sm);
     }
 }

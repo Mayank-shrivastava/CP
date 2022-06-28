@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b77e1ab-b236-4f5f-99c0-c64d9ff004db" name="Changes" comment="recursion-1">
-      <change afterPath="$PROJECT_DIR$/src/DP/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/FibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/FrogJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/FrogJump2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/HouseRobber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/NinjaTraining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/UniquePaths2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/LetterCombinationOfPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintPermutationOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Subset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Subset2.java" afterDir="false" />
+    <list default="true" id="6b77e1ab-b236-4f5f-99c0-c64d9ff004db" name="Changes" comment="dp and recursion">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Knapsack01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LISnlogn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LongestBitonicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LongestPalindromicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/NumberOfLIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/PrintLCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/RodCuttingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/UnboundedKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/DistributeTheCoins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +60,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.UniquePaths2">
-    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.HouseRobber" />
+}]]></component>
+  <component name="RunManager" selected="Application.C">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codeforces.B" />
+      <module name="CompetitiveProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Codeforces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codeforces.C" />
+      <module name="CompetitiveProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Codeforces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Codeforces.A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codeforces.A" />
+      <module name="CompetitiveProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Codeforces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.LongestPalindromicSubsequence" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
@@ -82,47 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.HouseRobber2" />
-      <module name="CompetitiveProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NinjaTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.NinjaTraining" />
-      <module name="CompetitiveProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.UniquePaths" />
-      <module name="CompetitiveProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniquePaths2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.UniquePaths2" />
+    <configuration name="MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.MatrixChainMultiplication" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UniquePaths2" />
-        <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.NinjaTraining" />
-        <item itemvalue="Application.HouseRobber2" />
-        <item itemvalue="Application.HouseRobber" />
+        <item itemvalue="Application.C" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.Codeforces.A" />
+        <item itemvalue="Application.LongestPalindromicSubsequence" />
+        <item itemvalue="Application.MatrixChainMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655282312227</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dp and recursion">
+      <created>1655832490110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655832490110</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +232,7 @@
     <MESSAGE value="22-05-22" />
     <MESSAGE value="all" />
     <MESSAGE value="recursion-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion-1" />
+    <MESSAGE value="dp and recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp and recursion" />
   </component>
 </project>
