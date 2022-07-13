@@ -13,6 +13,7 @@ public class FrogJump2 {
         int[] dp = new int[n];
         Arrays.fill(dp,-1);
         System.out.println(frog2(n-1, heights, dp,k));
+        scn.close();
     }
 
     public static int frog2(int n, int[] heights, int[] dp, int k) {
