@@ -15,6 +15,7 @@ public class ClassAssignment {
             subsequence(n,"",list,false);
             System.out.println("#"+n + " : " + list.size());
             //System.out.println(list);
+            scn.close();
         }
     }
 

@@ -1,6 +1,5 @@
 package striver_sheet;
 
-import java.sql.Array;
 import java.util.Arrays;
 
 public class SortColors {
